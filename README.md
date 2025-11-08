@@ -1,29 +1,7 @@
-# Assignment Solutions
-Repo for hosting solutions to and global take home assignment 
-
-# Task 1
-Task plan for learning ERNIE LLM
-1. Get a High-Level Overview
-Find online resources and read articles to understand the why behind ERNIE.
-
-2. Explore Live Demos
-Try out a hosted ERNIE demo on Hugging Face Spaces or other online examples.
-Test simple tasks like masked word filling, sentiment analysis, or question answering.
-
-3. Run prebuilt code 
-Load a pretrained ERNIE model and run it on sample inputs for testing.
-
-5. Understand Knowledge Masking 
-Study the key innovation: ERNIE masks entire concepts or entities rather than single words.
-Use simple examples to internalize the difference from BERT.
-
-6. Experiment with Mini Tasks 
-Fine-tune ERNIE on a small dataset for a practical task, like sentiment analysis. Observe features such as outputs, tokenization behavior, and model predictions.
-# Task 2
 
 # Medical Insurance Cost Prediction  
 
-This project trains and deploys a machine learning model that predicts an individual’s medical insurance charges based on demographic and lifestyle features.  
+This project trains and deploys a locally running machine learning model for predicting an individual’s medical insurance charges based on demographic and health data.  
 
 ---
 
@@ -63,7 +41,7 @@ This notebook includes:
 - Visualization of results 
 ---
 
-## 🚀 Deployment  
+## Deployment  
 The trained model is deployed using a simple **Flask** web server.  
 
 - Accepts **JSON input** with feature values  
